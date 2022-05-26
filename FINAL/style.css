@@ -1,0 +1,129 @@
+body {
+    background-image: url("header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+}
+
+#heading {
+    font-family: 'Diplomata SC', cursive;
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+
+#top-header {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+#webpage-name {
+    padding: 10px 10px 10px 10px;
+}
+
+#content {
+    margin-top: 100px;
+    background-color: rgba(255, 228, 196, 0.6);
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 43vh;
+    align-self: stretch;
+    z-index: 2;
+}
+
+#content p,
+#write-blog {
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    font-family: 'Tapestry', cursive;
+}
+
+#login-page {
+    width: 100%;
+    margin-top: 20px;
+}
+
+button {
+    font-family: 'Racing Sans One', cursive;
+    padding: 2px 2px 2px 2px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#login {
+    font-family: 'Racing Sans One', cursive;
+    padding: 2px 2px 2px 2px;
+    font-size: 25px;
+    letter-spacing: 7px;
+}
+
+#over {
+    margin-top: 40px;
+    padding: 30px 30px 30px 30px;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(255, 228, 196, 0.6);
+}
+
+#new-blog {
+    font-size: 20px;
+    position: relative;
+}
+
+#all-cards {
+    margin-top: 7px;
+    padding: 30px 30px 30px 30px;
+    position: relative;
+    width: 100%;
+    height: 90%;
+    background-color: rgba(255, 228, 196, 0.6);
+}
+
+#cards-data {
+    margin-top: 20 px;
+}
+
+table {
+    width: 100%;
+    height: 80%;
+}
+
+td {
+    align-items: center;
+    vertical-align: middle;
+    width: 31%;
+}
+
+#card-1, #card-2, #card-3 {
+    width: 31vw;
+    height: 54vh;
+    background-color:honeydew;
+}
+
+#card-1 img, #card-2 img, #card-3 img {
+    width: 31vw;
+    height: 30vh;
+}
+
+#signout-button {
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+#over2 {
+    margin-top: 20px;
+    padding: 30px 30px 30px 30px;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(255, 228, 196, 0.6);
+}
+
